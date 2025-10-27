@@ -1,0 +1,20 @@
+[ 
+  {
+	"condiciones": [
+		{
+			"condicion1": 1,
+			"condicion3": 1
+		}
+	],
+	"conclusion": "Recomendacion1"
+  },
+  {
+	"condiciones": [
+		{
+			"condicion2": 1,
+			"condicion4": 1
+		}
+	],
+	"conclusion": "Recomendacion2"
+  }
+]
