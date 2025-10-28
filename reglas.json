@@ -2,19 +2,100 @@
   {
 	"condiciones": [
 		{
-			"condicion1": 1,
-			"condicion3": 1
+			"tipoDato_imagen": 1,
+			"tipoObjetivo_generacion": 1
 		}
 	],
-	"conclusion": "Recomendacion1"
+	"conclusion": "Se recomienda la tecnica Generative Adversarial Networks (GANs)"
   },
   {
 	"condiciones": [
 		{
-			"condicion2": 1,
-			"condicion4": 1
+			"tipoDato_audio": 1,
+			"tipoObjetivo_generacion": 1
 		}
 	],
-	"conclusion": "Recomendacion2"
+	"conclusion": "Se recomienda la tecnica Generative Adversarial Networks (GANs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_video": 1,
+			"tipoObjetivo_generacion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Generative Adversarial Networks (GANs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_imagen": 1,
+			"tipoObjetivo_reconocimiento": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Convolutional Neural Networks (CNNS)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_video": 1,
+			"tipoObjetivo_reconocimiento": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Convolutional Neural Networks (CNNS) más Recurrent Neural Networks (RNNs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_texto": 1,
+			"tipoObjetivo_traduccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Transformer"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_texto": 1,
+			"tipoObjetivo_generacion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Transformer"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_texto": 1,
+			"tipoObjetivo_prediccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_estadistico": 1,
+			"tipoObjetivo_prediccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_audio": 1,
+			"tipoObjetivo_prediccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_video": 1,
+			"tipoObjetivo_prediccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
   }
 ]
