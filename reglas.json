@@ -71,15 +71,7 @@
 	],
 	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
   },
-  {
-	"condiciones": [
-		{
-			"tipoDato_estadistico": 1,
-			"tipoObjetivo_prediccion": 1
-		}
-	],
-	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
-  },
+  
   {
 	"condiciones": [
 		{
@@ -97,5 +89,23 @@
 		}
 	],
 	"conclusion": "Se recomienda la tecnica Recurrent Neural Networks (RNNs)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_estadistico": 1,
+			"tipoObjetivo_prediccion": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Perceptron Multicapa (MLP)"
+  },
+  {
+	"condiciones": [
+		{
+			"tipoDato_estadistico": 1,
+			"tipoObjetivo_reconocimiento": 1
+		}
+	],
+	"conclusion": "Se recomienda la tecnica Perceptron Multicapa (MLP)"
   }
 ]
